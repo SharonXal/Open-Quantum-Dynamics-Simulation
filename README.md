@@ -5,7 +5,7 @@ I have initially focused on light-matter interactions. I wanted to investigate, 
 
 I have written many codes for open quantum simulations, but my goal with this codebase is to upload them in tutorial style. So currently, I am working towards re-writing existing codes with detailed theory and analysis.
 
-Currently the codebase contains three notebooks. The notebooks are:
+Notebooks in the code:
 
 1. **qd_cavity_QED.ipynb**: This notebook simulates an InAs/GaAs self-assembled quantum dot (QD) embedded in a photonic-crystal nanocavity, modelled as a two-level emitter (TLS) strongly coupled to a single quantised cavity mode. The system is treated as an open quantum system: coherent Jaynes–Cummings dynamics plus incoherent Lindblad dissipation.
 2. **open_JC_model_lindblad**: This is the extension of the previous notebook, but now I have considered possible sources of noise. I have simulated individual effect of these noises and also the combined effect. This notebook builds up the model layer by layer, visualises each physical effect, and finally quantifies photon indistinguishability _M_ as a function of all relevant parameters.
