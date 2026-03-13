@@ -1,7 +1,7 @@
 # Open-Quantum-Dynamics-Simulation
 Develop simulations using QuTip for simulating open quantum systems. 
 
-I have initially focused on light-matter interactions. I wanted to investigate as a hobbie, what are the conditions for strong coupling of QD and light and what are the sources of noise and fabrication challenges.
+I have initially focused on light-matter interactions. I wanted to investigate, as a hobbie, what are the conditions for strong coupling of QD and light and what are the sources of noise and fabrication challenges.
 
 Currently the codebase contains three notebooks (I have plans to add more as I do further research). The notebooks are:
 
