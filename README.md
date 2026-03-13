@@ -1,11 +1,13 @@
 # Open-Quantum-Dynamics-Simulation
-Develop simulations using QuTip for simulating open quantum systems. 
+This repository contains my personal simulations of open quantum systems using QuTiP. My current focus is on light–matter interactions, particularly exploring the conditions required for strong coupling between quantum dots and optical fields, along with studying noise sources and practical fabrication challenges.
 
-I have initially focused on light-matter interactions. I wanted to investigate, as a hobbie, what are the conditions for strong coupling of QD and light and what are the sources of noise and fabrication challenges. 
+Many of these codes were originally written for my own exploration. I am now gradually rewriting them in a tutorial-style format, adding detailed explanations of the theory, simulation methods, and interpretation of results.
 
-I have written many codes for open quantum simulations, but my goal with this codebase is to upload them in tutorial style. So currently, I am working towards re-writing existing codes with detailed theory and analysis.
+The simulations typically reproduce existing theoretical proposals rather than presenting new research. I try to reference the papers that were used for writing the codes at the end of each notebook. The primary goal is to deepen my own understanding while building a collection of open-source educational resources.
 
-Notebooks in the code:
+Since this is an ongoing personal learning project, some implementations may contain mistakes or approximations. I continuously refine and debug the codes as I learn more.
+
+Notebooks in this repo:
 
 1. **qd_cavity_QED.ipynb**: This notebook simulates an InAs/GaAs self-assembled quantum dot (QD) embedded in a photonic-crystal nanocavity, modelled as a two-level emitter (TLS) strongly coupled to a single quantised cavity mode. The system is treated as an open quantum system: coherent Jaynes–Cummings dynamics plus incoherent Lindblad dissipation.
 2. **open_JC_model_lindblad**: This is the extension of the previous notebook, but now I have considered possible sources of noise. I have simulated individual effect of these noises and also the combined effect. This notebook builds up the model layer by layer, visualises each physical effect, and finally quantifies photon indistinguishability _M_ as a function of all relevant parameters.
